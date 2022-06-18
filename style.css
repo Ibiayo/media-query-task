@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    display: block;
+    position: relative;
+    background-image: url(./images/bg-intro-desktop.png);
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.TryItFree{
+    background-color: hsl(248, 32%, 49%);
+    position: relative;
+    border-radius: 5px;
+    left: 900px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 85%;
+    text-align: center;
+}
+
+.TryItFreeTexts{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.TryItFree p{
+    color: hsl(246, 25%, 77%);
+}
+
+span{
+    color: hsl(246, 25%, 77%);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.LearnTocode{
+    position: relative;
+    right: 400px;
+    display: block;
+    font-size: 16px;
+    top: 300px;
+    width:66%;
+}
+
+.LearnTocode h1{
+    font-weight: 800;
+    text-align: left;
+}
+
+.LearnTocode p{
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.OurForm{
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    right: 250px;
+    width: 100%;
+    height: 75%;
+}
+
+form{
+    position: relative;
+    bottom: 300px;
+    top:300px;
+    display: inline-block;
+    justify-content: center;
+    width: 650px;
+    height: 550px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 5px 0px 0px grey;
+}
+
+input{
+    position: relative;
+    top: 50px;
+    width: 90%;
+    padding: 23px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+} 
+
+:required{
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+}
+
+button{
+    position: relative;
+    top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    padding: 25px;
+    width: 90%;
+    color: white;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input:hover{
+    outline: 1px solid hsl(0, 100%, 74%);
+}
+
+.OurForm h5{
+    color: gray;
+    position: relative;
+    top: 50px;
+}
+
+.OurForm span{
+    color: hsl(0, 100%, 74%);
+}
+
+main{
+    display:flex;
+    width: 100%;
+}
+
+
+
